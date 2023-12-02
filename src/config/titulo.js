@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Implementación de servicios tecnológicos, según las estrategias de gobierno, riesgo y cumplimiento'
