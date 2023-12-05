@@ -386,8 +386,8 @@
         p(data-aos="fade-left") Estos productos y servicios, en su mayoría digitales, son la esencia del modelo de economía moderna, por lo cual las empresas deben velar por mantenerse a la vanguardia en todos los niveles organizacionales como el recurso humano que opera en las diferentes áreas en las que se incluye la de tecnología y por supuesto, en las exigencias requeridas a nivel de los sistemas tecnológicos.
         p(data-aos="fade-left") A continuación, se explica en qué consiste el Sistema de Valor del Servicio (SVS).
     
-    .row
-      p(data-aos="fade-left") Este es el modelo que muestra cómo una oportunidad o demanda organizacional después de ser procesada se convierte en el valor que las partes interesadas (stakeholders) requieren. Su objetivo es enfocar todos los recursos disponibles para la creación de valor de manera continua, a través de la práctica y la administración de productos y servicios:
+    .row.mt-5
+      p(data-aos="fade-left") Este es el modelo que muestra cómo una oportunidad o demanda organizacional después de ser procesada se convierte en el valor que las partes interesadas #[i (stakeholders)] requieren. Su objetivo es enfocar todos los recursos disponibles para la creación de valor de manera continua, a través de la práctica y la administración de productos y servicios:
 
     .row.justify-content-center
       .col-lg-10.col-12 
@@ -395,7 +395,7 @@
           h5 Figura 2.
           span #[i Cadena de valor del servicio]
         .col-12 
-          figure.desktop(data-aos="fade-right")
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema1/26.svg' alt='En la figura se tiene: oportunidad/ demanda, principios rectores, gobernanza, cadena de valor del servicio, prácticas, mejora continua, valor.')
 
     p.mt-5(data-aos="fade-left") Ahora, se analiza cada uno de sus componentes:
