@@ -50,70 +50,70 @@
         .tarjeta.tarjeta--gris.p-4.mb-5(style="background-color: #E1F5D6")
           LineaTiempoC.color-acento-botones(text-small)
             .row(titulo="1").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión de la disponibilidad
                 p Para que la organización alcance el éxito necesita realizar un acompañamiento de los servicios y productos 24 horas por los 7 días de la semana (24/7).
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/4.jpg', alt='Texto que describa la imagen')
             .row(titulo="2").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión de la capacidad y rendimiento
                 p Hace referencia a la capacidad organizacional para alcanzar el rendimiento esperado sin superar los costos acordados, contribuyendo a lograr una gestión tecnológica más eficaz.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/5.jpg', alt='Texto que describa la imagen')
             .row(titulo="3").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Control de cambio
                 p Centrado en las variaciones de productos y servicios de forma integral.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/6.jpg', alt='Texto que describa la imagen')
             .row(titulo="4").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión de incidentes
                 p Garantiza que se mantenga el máximo nivel de calidad posible, con disponibilidad del servicio.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/7.jpg', alt='Texto que describa la imagen')
             .row(titulo="5").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión de activos de TI
                 p Permite la planificación y gestión del ciclo de vida de los activos, con lo cual se aumenta el valor y se contribuye en la toma de mejores decisiones de compra.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/8.jpg', alt='Texto que describa la imagen')
             .row(titulo="6").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión de la continuidad del servicio
                 p Las organizaciones están expuestas a diferentes imprevistos (por ejemplo, catástrofes), por lo que se debe garantizar la prestación continua de funciones.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/9.jpg', alt='Texto que describa la imagen')
             .row(titulo="7").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Diseño del servicio
                 p Referido al diseño de los productos y los servicios que se ajusten al ecosistema de la organización.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/10.jpg', alt='Texto que describa la imagen')
             .row(titulo="8").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Servicio de atención al cliente
                 p Actividad conocida como #[i “service desk”], se encarga de gestionar la resolución de incidentes y solicitudes de servicio.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/11.jpg', alt='Texto que describa la imagen')
             .row(titulo="9").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Gestión del nivel de servicio
                 p Los servicios deben alcanzar el nivel de calidad acordado, por lo que es necesario contribuir al establecimiento de los objetivos relacionados con el seguimiento, la medición, la evaluación y la gestión de la prestación de servicios mediante acuerdos del nivel de servicio #[i (Service Level Agreement,]  SLA).
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/12.jpg', alt='Texto que describa la imagen')
             .row(titulo="10").col-ipad
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.p-4
                 h4 Validación y pruebas del servicio
                 p Se necesita comprobar que todos los productos y los servicios nuevos o modificados de una organización cumplan con los requisitos definidos, por lo que se aplican pruebas de validación y de servicio.
               .col-md-6

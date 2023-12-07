@@ -161,7 +161,7 @@
 
     .row.mt-5
       .col-12
-        p.text-center(data-aos="fade-left") A partir de la situación que se ha planteado es posible hacer las siguientes deducciones:
+        p(data-aos="fade-left") A partir de la situación que se ha planteado es posible hacer las siguientes deducciones:
       .row.justify-content-center.align-items-center 
         .col-lg-8.col-12.mb-3
           li Al realizar la comparación entre los dos proyectos, aparentemente, es preferible optar por la opción B, puesto que genera un tiempo de recuperación menor que el definido en la opción A; sin embargo, esta técnica no considera lo que pasa después del PR, por ejemplo, en el proyecto A, después de su PR, se generan flujos altos (año 3, $4000 y año 4, $8000), mientras que en el proyecto B, luego de su PR, se generan flujos muy bajos (año 3, $2000 y año 4, $2000).
@@ -176,20 +176,20 @@
 
     h4 ● Valor Actual Neto (VAN o VPN)
 
-    p(data-aos="fade-left") Es la suma del valor presente de la corriente de flujos de efectivo descontados a la tasa de costo de capital, menos la inversión inicial. Vea cómo se aplica en el proyecto A, que recuerde tiene una inversión inicial de $12.000.
+    p(data-aos="fade-left") Es la suma del valor presente de la corriente de flujos de efectivo descontados a la tasa de costo de capital, menos la inversión inicial. Revisar cómo se aplica en el proyecto A, es de aclarar, que tiene una inversión inicial de $12.000.
 
     .row.justify-content-center 
       .col-lg-10.col-12
         .cajon.p-4.mb-3(style="background-color: #FEFEF1")
           .row.justify-content-center.align-items-center
-            .col-lg-3.col-6
-              figure
-                img(src='@/assets/curso/temas/tema1/16.svg', alt='Imagen decorativa')
-            .col-lg-4.col-6
-              h4 Proyecto A:
-              h4 Inversión inicial: $12.000
-              h4 Entradas de efectivo operativas:
-            .col-lg-4.col-12
+            //- .col-lg-3.col-6
+            //-   figure
+            //-     img(src='@/assets/curso/temas/tema1/16.svg', alt='Imagen decorativa')
+            //- .col-lg-4.col-6
+            //-   h4 Proyecto A:
+            //-   h4 Inversión inicial: $12.000
+            //-   h4 Entradas de efectivo operativas:
+            .col-lg-10.col-12
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 1.
                 span #[i Entradas de efectivo operativas proyecto A]
@@ -238,7 +238,7 @@
                 td (1+0,10)3 = 1,33
                 td (1+0,10)4 = 1,46
           
-        p(data-aos="fade-left") Ahora se usa este factor para descontar los flujos de efectivo:
+        p.mt-5.mb-5(data-aos="fade-left") Ahora se usa este factor para descontar los flujos de efectivo:
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
           span #[i Descontar flujos de efectivo]
@@ -317,14 +317,14 @@
       .col-lg-10.col-12
         .cajon.p-4.mb-3(style="background-color: #FEFEF1")
           .row.justify-content-center.align-items-center
-            .col-lg-3.col-6
-              figure
-                img(src='@/assets/curso/temas/tema1/16.svg', alt='Imagen decorativa')
-            .col-lg-4.col-6
-              h4 Proyecto A:
-              h4 Inversión inicial: $12.000
-              h4 Entradas de efectivo operativas:
-            .col-lg-4.col-12
+            //- .col-lg-3.col-6
+            //-   figure
+            //-     img(src='@/assets/curso/temas/tema1/16.svg', alt='Imagen decorativa')
+            //- .col-lg-4.col-6
+            //-   h4 Proyecto A:
+            //-   h4 Inversión inicial: $12.000
+            //-   h4 Entradas de efectivo operativas:
+            .col-lg-10.col-12
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 4.
                 span #[i Entradas de efectivo operativas]
@@ -355,7 +355,7 @@
           p.text-bold Se acepta si TIR ≥ costo del capital
           p.text-bold Se rechaza si TIR es ≤ Costo del capital
 
-    p(data-aos="fade-left") Existen una serie de aspectos que se deben tener en cuenta para realizar el análisis de los proyectos, puede ser, que haya suficiente capital para realizar ambos proyectos, por lo que es importante considerar el valor del dinero en el tiempo, si se invierten $200 hoy, no tendrán el mismo valor dentro de un año.  Recuerde que el valor del dinero es cambiante, se desvaloriza, pierde su poder adquisitivo por fenómenos como la inflación, el dólar, etc. (Finanzas corporativas y conceptos económicos, s.f.).
+    p(data-aos="fade-left") Existen una serie de aspectos que se deben tener en cuenta para realizar el análisis de los proyectos, puede ser, que haya suficiente capital para realizar ambos proyectos, por lo que es importante considerar el valor del dinero en el tiempo, si se invierten $200 hoy, no tendrán el mismo valor dentro de un año.  Recordar que el valor del dinero es cambiante, se desvaloriza, pierde su poder adquisitivo por fenómenos como la inflación, el dólar, etc. (Finanzas corporativas y conceptos económicos, s.f.).
 
     
     .row.justify-content-center
@@ -368,7 +368,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Técnicas de evaluación
-                  p.text-small Para saber más sobre las técnicas TIR-VAN, consulte el video Evaluación de decisiones de inversión. En el enlace:
+                  p.text-small Para saber más sobre las técnicas TIR-VAN, consultar el video Evaluación de decisiones de inversión. En el siguiente enlace:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gmttXoLfS1c&ab_channel=AulaDeEconomia" target="_blank")
                     span Abrir video
@@ -420,7 +420,7 @@
             p Se promueve el entendimiento común de la visión, el estado actual y la dirección de la mejora para los productos y los servicios de la organización.
           .tarjeta.color-acento-botones.p-3(x="50.5%" y="87.5%" numero="")
             .h5.mb-2 Mejora
-            p Busca la mejora continua de cada uno de los componentes de la Cadena de Valor de Servicio (Service Value Chain - SVC).
+            p Busca la mejora continua de cada uno de los componentes de la Cadena de Valor de Servicio #[i (Service Value Chain] - SVC).
           .tarjeta.color-acento-botones.p-3(x="24.9%" y="37.5%" numero="")
             .h5.mb-2 Compromiso
             p Asegura un buen entendimiento de las necesidades de los interesados, promueve la transparencia y relaciones con todas las partes.
@@ -471,7 +471,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 34 prácticas de ITIL
-                  p.text-small Para saber más sobre las prácticas de ITIL, consulte el documento ITIL 4 Componentes Principales. En el enlace
+                  p.text-small Para saber más sobre las prácticas de ITIL, consultar el documento ITIL 4 Componentes Principales. En el enlace
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.itil.com.mx/Componentes/#SVS" target="_blank")
                     span Enlace web
