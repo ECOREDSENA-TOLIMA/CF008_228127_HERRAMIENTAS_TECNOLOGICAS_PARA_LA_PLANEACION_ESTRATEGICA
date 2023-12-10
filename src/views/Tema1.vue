@@ -176,7 +176,7 @@
 
     h4 ● Valor Actual Neto (VAN o VPN)
 
-    p(data-aos="fade-left") Es la suma del valor presente de la corriente de flujos de efectivo descontados a la tasa de costo de capital, menos la inversión inicial. Revisar cómo se aplica en el proyecto A, es de aclarar, que tiene una inversión inicial de $12.000.
+    p(data-aos="fade-left") Es la suma del valor presente de la corriente de flujos de efectivo descontados a la tasa de costo de capital, menos la inversión inicial. Revisar cómo se aplica en el proyecto A, se recuerda que tiene una inversión inicial de $12.000.
 
     .row.justify-content-center 
       .col-lg-10.col-12
@@ -212,7 +212,7 @@
                     td 4.000
                     td 4.000
     .row
-      p(data-aos="fade-left") Suponga que hay un costo de capital del negocio de K = 10 %, entonces, los flujos de efectivo se descontarán a un factor igual a uno más la tasa de costo de capital, elevado al número de periodos que transcurren para obtener este dinero, lo que trae a valor presente el flujo de efectivo:
+      p(data-aos="fade-left") Se supone que hay un costo de capital del negocio de K = 10 %, entonces, los flujos de efectivo se descontarán a un factor igual a uno más la tasa de costo de capital, elevado al número de periodos que transcurren para obtener este dinero, lo que trae a valor presente el flujo de efectivo:
 
     .row.justify-content-center.mt-5
       .col-lg-10.col-12
@@ -355,7 +355,7 @@
           p.text-bold Se acepta si TIR ≥ costo del capital
           p.text-bold Se rechaza si TIR es ≤ Costo del capital
 
-    p(data-aos="fade-left") Existen una serie de aspectos que se deben tener en cuenta para realizar el análisis de los proyectos, puede ser, que haya suficiente capital para realizar ambos proyectos, por lo que es importante considerar el valor del dinero en el tiempo, si se invierten $200 hoy, no tendrán el mismo valor dentro de un año.  Recordar que el valor del dinero es cambiante, se desvaloriza, pierde su poder adquisitivo por fenómenos como la inflación, el dólar, etc. (Finanzas corporativas y conceptos económicos, s.f.).
+    p(data-aos="fade-left") Existen una serie de aspectos que se deben tener en cuenta para realizar el análisis de los proyectos, puede ser, que haya suficiente capital para realizar ambos proyectos, por lo que es importante considerar el valor del dinero en el tiempo, si se invierten $200 hoy, no tendrán el mismo valor dentro de un año.  Se recuerda que el valor del dinero es cambiante, se desvaloriza, pierde su poder adquisitivo por fenómenos como la inflación, el dólar, etc. (Finanzas corporativas y conceptos económicos, s.f.).
 
     
     .row.justify-content-center
@@ -368,7 +368,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Técnicas de evaluación
-                  p.text-small Para saber más sobre las técnicas TIR-VAN, consultar el video Evaluación de decisiones de inversión. En el siguiente enlace:
+                  p.text-small Para saber más sobre las técnicas TIR-VAN, se invita a consultar el video Evaluación de decisiones de inversión. En el siguiente enlace:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gmttXoLfS1c&ab_channel=AulaDeEconomia" target="_blank")
                     span Abrir video
@@ -471,7 +471,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 34 prácticas de ITIL
-                  p.text-small Para saber más sobre las prácticas de ITIL, consultar el documento ITIL 4 Componentes Principales. En el enlace
+                  p.text-small Para saber más sobre las prácticas de ITIL, se invita a consultar el documento ITIL 4 Componentes Principales. En el enlace
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.itil.com.mx/Componentes/#SVS" target="_blank")
                     span Enlace web
