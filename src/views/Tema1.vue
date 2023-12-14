@@ -473,7 +473,7 @@
                   h3.mb-1 34 prácticas de ITIL
                   p.text-small Para saber más sobre las prácticas de ITIL, se invita a consultar el documento ITIL 4 Componentes Principales. En el enlace
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.itil.com.mx/Componentes/#SVS" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.itil.com.mx/#" target="_blank")
                     span Enlace web
                     i.fas.fa-file-link
     .row 

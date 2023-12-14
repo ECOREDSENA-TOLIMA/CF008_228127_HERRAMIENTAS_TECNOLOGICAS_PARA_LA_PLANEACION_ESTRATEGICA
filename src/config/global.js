@@ -108,17 +108,16 @@ export default {
   },
   complementario: [
     {
-      tema: 'Técnicas de evaluación de proyectos',
+      tema: 'Prácticas de gestión de servicios ITIL',
       referencia:
-        'AulaDeEconomia. (2021). Técnicas de evaluación de proyectos (TIR, VAN) [video]. YouTube.',
-      tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=gmttXoLfS1c&ab_channel=AulaDeEconomia',
+        'ITIL. (s.f). ITIL 4 ¡Los nuevos conceptos de ITIL están aquí!',
+      tipo: 'Web',
+      link: 'https://www.itil.com.mx/#',
     },
     {
       tema: 'Prácticas de gestión de servicios ITIL ',
       referencia:
-        'ManageEngine LATAM. (2021). Webinar: Mejores prácticas para la gestión de servicios (ITSM) en 2021 [video]. YouTube.',
+        '<i>ManageEngine</i> LATAM. (2021). <i>Webinar</i>: Mejores prácticas para la gestión de servicios (ITSM) en 2021 [video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=G0MFhXNf4jA&t=769s&ab_channel=ManageEngineLATAM',
