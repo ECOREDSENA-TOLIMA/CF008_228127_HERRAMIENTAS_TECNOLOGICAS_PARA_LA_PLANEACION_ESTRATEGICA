@@ -201,16 +201,16 @@
                 tbody
                   tr
                     td 1
+                    td 4.000
+                  tr
                     td 2
-                  tr
-                    td 4.000
                     td 4.000
                   tr
-                    td 1
-                    td 2
+                    td 3
+                    td 4.000
                   tr
-                    td 4.000
-                    td 4.000
+                    td 4
+                    td 8.000
     .row
       p(data-aos="fade-left") Se supone que hay un costo de capital del negocio de K = 10 %, entonces, los flujos de efectivo se descontarán a un factor igual a uno más la tasa de costo de capital, elevado al número de periodos que transcurren para obtener este dinero, lo que trae a valor presente el flujo de efectivo:
 
@@ -392,7 +392,7 @@
     .row.justify-content-center
       .col-lg-10.col-12 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 3.
           span #[i Cadena de valor del servicio]
         .col-12 
           figure(data-aos="fade-right")
@@ -555,11 +555,21 @@
             .col-md-6.mb-4.mb-md-0
               .row.justify-content-center 
                 .col-lg-10.col-12
+                  h4 Progrese
+                  p No se puede hacer todo a la vez, sino paso a paso, verificando el rumbo que aporte valor. Todo lo que se haga debe estar organizado, con objetivos y con visión general para la comprensión de lo que se quiere alcanzar, retroalimentando de manera constante a los interesados.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/36.jpg', alt='Texto que describa la imagen')
+
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              .row.justify-content-center 
+                .col-lg-10.col-12
                   h4 Colabore
                   p El trabajo en el área de TI debe ser colaborativa entre organización y proveedores, debe haber una comprensión completa del valor y de los objetivos. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/36.jpg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/37.jpg', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0
@@ -569,7 +579,7 @@
                   p Se debe pensar diferente, con nuevas perspectivas, con múltiples puntos de vista como el de otras organizaciones, servicios existentes, nuevas tecnologías, etc. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/37.jpg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/38.jpg', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0
@@ -579,7 +589,7 @@
                   p Las actividades que se realicen en la organización se deben hacer de manera práctica y con gran simplicidad, entendible y útil para los interesados. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/38.jpg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/39.jpg', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0
@@ -589,24 +599,24 @@
                   p Los procesos deben ser siempre efectivos y útiles. Debe haber disponibilidad de recursos de manera permanente. Es importante optimizar la automatización de los procesos, mantenerse en revisión constante y mejora continua de los servicios y los productos. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/39.jpg', alt='Texto que describa la imagen')
-
-          .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
-              .row.justify-content-center 
-                .col-lg-10.col-12
-                  h4 Enfóquese en el valor 
-                  p Es el primero de los principios, enfocado en el valor y en los esfuerzos directos e indirectos percibidos por las partes interesadas. Formular preguntas ayudan a identificar si se está cerca del valor deseable para una organización: 
-              .row.justify-content-center 
-                .col-lg-10.col-12
-                  li ¿Quiénes son los interesados del servicio?
-                  li ¿Cuáles son las expectativas de los interesados?
-                  li ¿Existen objetivos medibles?
-                  li ¿Con qué métodos cuenta para medir?
-                  li ¿Cómo se percibe el valor?
-            .col-md-6
-              figure
                 img(src='@/assets/curso/temas/tema1/40.jpg', alt='Texto que describa la imagen')
+
+          //- .row.justify-content-center.align-items-center
+          //-   .col-md-6.mb-4.mb-md-0
+          //-     .row.justify-content-center 
+          //-       .col-lg-10.col-12
+          //-         h4 Enfóquese en el valor 
+          //-         p Es el primero de los principios, enfocado en el valor y en los esfuerzos directos e indirectos percibidos por las partes interesadas. Formular preguntas ayudan a identificar si se está cerca del valor deseable para una organización: 
+          //-     .row.justify-content-center 
+          //-       .col-lg-10.col-12
+          //-         li ¿Quiénes son los interesados del servicio?
+          //-         li ¿Cuáles son las expectativas de los interesados?
+          //-         li ¿Existen objetivos medibles?
+          //-         li ¿Con qué métodos cuenta para medir?
+          //-         li ¿Cómo se percibe el valor?
+          //-   .col-md-6
+          //-     figure
+          //-       img(src='@/assets/curso/temas/tema1/40.jpg', alt='Texto que describa la imagen')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex  Gobernanza
@@ -663,10 +673,10 @@
           .tarjeta.color-acento-primario--borde.p-4(titulo="Obtener, procesar y analizar")(style="background-color: #E1F5D6")
             h4 Obtener, procesar y analizar
             p A partir de la recolección de información de los servicios en su fase de operación se procede a procesarla para lograr los indicadores, con lo cual se analizan y se validan las tendencias.
-          .tarjeta.color-acento-primario--borde.p-4(titulo="Identificar la estrategia")(style="background-color: #E1F5D6")
+          .tarjeta.color-acento-primario--borde.p-4(titulo="Presentar")(style="background-color: #E1F5D6")
             h4 Presentar
             p La información debe ser muy bien comprendida para lograr realizar una buena toma de decisiones. Además, se socializará en las diferentes instancias de la organización.
-          .tarjeta.color-acento-primario--borde.p-4(titulo="Identificar la estrategia")(style="background-color: #E1F5D6")
+          .tarjeta.color-acento-primario--borde.p-4(titulo="Implementar")(style="background-color: #E1F5D6")
             h4 Implementar
             p Para alcanzar la mejora continua se realiza la corrección, la optimización y la priorización.
     separador 
