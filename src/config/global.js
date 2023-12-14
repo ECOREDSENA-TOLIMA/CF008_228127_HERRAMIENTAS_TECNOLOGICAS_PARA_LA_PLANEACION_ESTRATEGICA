@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Implementación de servicios tecnológicos, según las estrategias de gobierno, riesgo y cumplimiento',
+      'Implementación de servicios tecnológicos según las estrategias de gobierno, riesgo y cumplimiento',
     descripcionCurso:
       'Conocer las herramientas para realizar los estudios de viabilidad tecnológica es fundamental para la evaluación e implementación de proyectos tecnológicos, que se encaminen a realizar buenas prácticas de productos y servicios de tecnologías de la información, aplicando el modelo de referencia ITIL.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
